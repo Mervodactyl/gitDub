@@ -1,0 +1,63 @@
+/* all styles for GitDub Directory */
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.nav-item {
+  float: left;
+  height: 80px;
+}
+
+.nav-item > * {
+  height: 80px;
+}
+
+.horizontal-list {
+  list-style-type: none;
+}
+
+.horizontal-list > li {
+  float: left;
+  /*display: inline-block;*/
+}
+
+.nav-item.brand-container {
+  width: 20%;
+}
+
+.nav-item.search-container {
+  width: 30%;
+}
+
+.nav-item.links-container {
+  width: 30%;
+}
+
+.nav-item.buttons-contianer {
+  width: 20%;
+}
+
+.search-input {
+  height: 28px;
+}
+
+.nav-item .search-input {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  top: 40%;
+  margin-top: -14px; /* should be half of height... */
+}
+
+.nav-item .horizontal-list li {
+  position: relative;
+  height: 28px;
+  top: 40%;
+  margin-top: -14px; /* should be half of height... */
+}
+
+.nav-item .horizontal-list li a {
+  line-height: 28px;
+}
